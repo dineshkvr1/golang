@@ -10,6 +10,7 @@ func main() {
 	count := 0
 	for no > 0 {
 		no = no / 10
+		fmt.Println(no)
 		count++
 		//fmt.Println(count)
 	}
